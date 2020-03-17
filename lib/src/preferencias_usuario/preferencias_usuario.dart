@@ -1,5 +1,4 @@
 import 'package:shared_preferences/shared_preferences.dart';
-
 /*
   Recordar instalar el paquete de:
     shared_preferences:
@@ -7,7 +6,6 @@ import 'package:shared_preferences/shared_preferences.dart';
   Inicializar en el main
     final prefs = new PreferenciasUsuario();
     prefs.initPrefs();
-
 */
 
 class PreferenciasUsuario {

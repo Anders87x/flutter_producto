@@ -6,6 +6,7 @@ import 'package:flutter_producto/src/pages/home_page.dart';
 import 'package:flutter_producto/src/pages/login_page.dart';
 import 'package:flutter_producto/src/pages/producto_page.dart';
 import 'package:flutter_producto/src/pages/registro_page.dart';
+
 import 'package:flutter_producto/src/preferencias_usuario/preferencias_usuario.dart';
  
 void main() async {

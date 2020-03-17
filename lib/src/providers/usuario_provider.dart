@@ -5,7 +5,7 @@ import 'package:http/http.dart' as http;
 
 class UsuarioProvider {
 
-  final String _firebaseToken = 'AIzaSyAO749eZf3E35cmxgZA06mRygilezkNVsM';
+  final String _firebaseToken = 'AIzaSyCrrM3TBOPdyy8zrwTGViL1iKE8mEqzpfw';
   final _prefs = new PreferenciasUsuario();
 
   Future<Map<String, dynamic>> login( String email, String password) async {
@@ -48,7 +48,7 @@ class UsuarioProvider {
 
     Map<String, dynamic> decodedResp = json.decode( resp.body );
 
-    print(decodedResp);
+    //print(decodedResp);
 
     if ( decodedResp.containsKey('idToken') ) {
       _prefs.token = decodedResp['idToken'];

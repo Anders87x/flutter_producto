@@ -11,7 +11,7 @@ import 'package:flutter_producto/src/models/producto_model.dart';
 
 class ProductosProvider {
 
-  final String _url = 'https://flutter-varios.firebaseio.com';
+  final String _url = 'https://fluttertest-6a942.firebaseio.com';
   final _prefs = new PreferenciasUsuario();
 
   Future<bool> crearProducto( ProductoModel producto ) async {
@@ -45,6 +45,8 @@ class ProductosProvider {
       prodTemp.id = id;
       productos.add( prodTemp );
     });
+
+    print(decodedData);
 
     return productos;
   }
